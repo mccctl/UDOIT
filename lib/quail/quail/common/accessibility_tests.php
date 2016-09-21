@@ -2063,7 +2063,7 @@ class embedHasAssociatedNoEmbed extends quailTest
 	/**
 	*	@var int $default_severity The default severity code for this test.
 	*/
-	var $default_severity = QUAIL_TEST_SEVERE;
+	var $default_severity = QUAIL_TEST_MODERATE;
 
 	/**
 	*	The main check function. This is called by the parent class to actually check content
@@ -4665,7 +4665,7 @@ class objectMustContainText extends quailTest
 	/**
 	*	@var int $default_severity The default severity code for this test.
 	*/
-	var $default_severity = QUAIL_TEST_SEVERE;
+	var $default_severity = QUAIL_TEST_MODERATE;
 
 	/**
 	*	The main check function. This is called by the parent class to actually check content
@@ -6259,7 +6259,7 @@ class videosEmbeddedOrLinkedNeedCaptions extends quailTest
 	/**
 	*	@var int $default_severity The default severity code for this test.
 	*/
-	var $default_severity = QUAIL_TEST_SEVERE;
+	var $default_severity = QUAIL_TEST_MODERATE;
 
 	/**
 	*	@var array $services The services that this test will need. We're using
